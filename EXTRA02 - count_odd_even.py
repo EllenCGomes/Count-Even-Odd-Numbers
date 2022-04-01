@@ -7,9 +7,9 @@ while (not finished):
         finished = True
     else:
         if n % 2 == 0:
-            even = even + 1
+            even += 1
         else:
-            odd = odd + 1
+            odd += 1
 
 print ("Even = ", even)
 print ("Odd = ", odd)
